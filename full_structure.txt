@@ -1,0 +1,76 @@
+Folder PATH listing
+Volume serial number is E6F2-0134
+D:.
+³   full_structure.txt
+³   
+ÀÄÄÄglowaura
+    ³   AUDIT_REPORT.md
+    ³   
+    ÃÄÄÄbackend
+    ³   ³   .env.example
+    ³   ³   package.json
+    ³   ³   tsconfig.json
+    ³   ³   
+    ³   ÀÄÄÄsrc
+    ³       ³   App.ts
+    ³       ³   server.ts
+    ³       ³   
+    ³       ÃÄÄÄconfig
+    ³       ³       cloudinary.ts
+    ³       ³       database.ts
+    ³       ³       razorpay.ts
+    ³       ³       
+    ³       ÃÄÄÄcontrollers
+    ³       ³       authController.ts
+    ³       ³       couponController.ts
+    ³       ³       orderController.ts
+    ³       ³       productController.ts
+    ³       ³       
+    ³       ÃÄÄÄmiddleware
+    ³       ³       auth.ts
+    ³       ³       error.ts
+    ³       ³       
+    ³       ÃÄÄÄmodels
+    ³       ³       index.ts
+    ³       ³       Product.ts
+    ³       ³       User.ts
+    ³       ³       
+    ³       ÃÄÄÄroutes
+    ³       ³       index.ts
+    ³       ³       
+    ³       ÀÄÄÄutils
+    ³               jwt.ts
+    ³               
+    ÃÄÄÄfrontend
+    ³   ³   .env.example
+    ³   ³   package.json
+    ³   ³   
+    ³   ÀÄÄÄsrc
+    ³       ÃÄÄÄapp
+    ³       ³       globals.css
+    ³       ³       layout.tsx
+    ³       ³       
+    ³       ÃÄÄÄcomponents
+    ³       ³   ÀÄÄÄlayout
+    ³       ³           Footer.tsx
+    ³       ³           Navbar.tsx
+    ³       ³           
+    ³       ÃÄÄÄhooks
+    ³       ³       useAuth.tsx
+    ³       ³       useCart.tsx
+    ³       ³       
+    ³       ÃÄÄÄlib
+    ³       ³       api.ts
+    ³       ³       
+    ³       ÀÄÄÄtypes
+    ³               index.ts
+    ³               
+    ÀÄÄÄ{backend
+        ÀÄÄÄsrc
+            ÀÄÄÄ{config,controllers,middleware,models,routes,utils},frontend
+                ÀÄÄÄsrc
+                    ÀÄÄÄ{app
+                        ÀÄÄÄ{auth
+                            ÀÄÄÄ{login,register},shop,cart,checkout,user
+                                ÀÄÄÄ{profile,orders,wishlist,addresses}},components
+                                    ÀÄÄÄ{layout,ui},hooks,lib,types}}
